@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\build\\_build.csproj": {}
+    "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\build\\_build.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\build\\_build.csproj": {
+    "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\build\\_build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\build\\_build.csproj",
+        "projectUniqueName": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\build\\_build.csproj",
         "projectName": "_build",
-        "projectPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\build\\_build.csproj",
-        "packagesPath": "C:\\Users\\Undea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\build\\obj\\",
+        "projectPath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\build\\_build.csproj",
+        "packagesPath": "C:\\Users\\nikitenkoaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\build\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Undea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nikitenkoaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\locaNugets": {},
+          "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\RevitNuke\\RevitNuke\\RevitBuildProject\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp6.0": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,11 +42,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp6.0": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "RevitBuildProject": {
               "target": "Package",
-              "version": "[1.0.8, )"
+              "version": "[1.0.7, )"
             }
           },
           "imports": [
@@ -62,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

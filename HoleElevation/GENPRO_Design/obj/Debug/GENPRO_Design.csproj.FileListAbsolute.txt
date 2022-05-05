@@ -27,3 +27,8 @@ C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleDesignation\Hol
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleDesignation\HoleDesignation\GENPRO_Design\obj\Debug\GENPRO_Design.csproj.CopyComplete
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleDesignation\HoleDesignation\GENPRO_Design\obj\Debug\GENPRO_Design.dll
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleDesignation\HoleDesignation\GENPRO_Design\obj\Debug\GENPRO_Design.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\Debug\GENPRO_Design.csproj.AssemblyReference.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\Debug\GENPRO_Design.Properties.GenproResource.resources
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\Debug\GENPRO_Design.csproj.GenerateResource.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\Debug\GENPRO_Design.dll
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\Debug\GENPRO_Design.pdb

@@ -116,3 +116,36 @@ C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleE
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.csproj.CopyComplete
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.dll
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.dll
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\GENPRO_Design.dll
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\GENPRO_Design.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\MaterialDesignColors.dll
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\MaterialDesignColors.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\MaterialDesignThemes.Wpf.dll
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\bin\R2020\MaterialDesignThemes.Wpf.pdb
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.csproj.AssemblyReference.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\InputWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GenproDesignDictionary.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\CommonInfoWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\CreateNameWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\GenproProgressBarWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\InputWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\QuestionWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\RenameWindow.g.cs
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design_MarkupCompile.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design_MarkupCompile.lref
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\CommonInfoWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\CreateNameWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\GenproProgressBarWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\QuestionWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\DialogWindow\RenameWindow.baml
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.g.resources
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.Properties.GenproResource.resources
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.csproj.GenerateResource.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.csproj.CoreCompileInputs.cache
+C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\obj\x64\Debug\GENPRO_Design.csproj.CopyComplete
+C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_ac311122-c73f-4506-98f4-543af2a271d2\bin\GENPRO_Design.dll
+C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_ac311122-c73f-4506-98f4-543af2a271d2\bin\GENPRO_Design.pdb
+C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_82a4a6b6-01ab-43cc-9eff-0f0d418623d4\bin\GENPRO_Design.dll
+C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_82a4a6b6-01ab-43cc-9eff-0f0d418623d4\bin\GENPRO_Design.pdb

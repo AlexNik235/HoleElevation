@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZjxfV0RA5guvCTsh2v9mO2Jg+E7CfQzOkSen+7JtQTyM7JVUutmcfXgnPvUJd+Yldktw6UFfrHbct9va2Y1f+g==",
+  "dgSpecHash": "23s0d+IS3AImlxIJlFhPkdflEswc29YyiMKc7IEHZ/GFhSFv4WHiz6//QMZ978NKMRNdmtgOASuib1INpKQC1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj",
+  "projectFilePath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Undea\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
-    "C:\\Users\\Undea\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
+    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

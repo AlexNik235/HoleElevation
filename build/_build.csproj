@@ -10,4 +10,8 @@
     <NukeTelemetryVersion>1</NukeTelemetryVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="RevitBuildProject" Version="1.0.7" />
+  </ItemGroup>
+
 </Project>
