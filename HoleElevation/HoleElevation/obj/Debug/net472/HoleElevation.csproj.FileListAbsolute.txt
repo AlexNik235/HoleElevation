@@ -1,0 +1,15 @@
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\HoleElevation.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\HoleElevation.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\CSharpFunctionalExtensions.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.csproj.AssemblyReference.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.AssemblyInfoInputs.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.AssemblyInfo.cs
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.csproj.CoreCompileInputs.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.csproj.CopyComplete
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\Debug\net472\HoleElevation.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\MaterialDesignColors.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\MaterialDesignThemes.Wpf.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\GENPRO_Design.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\Debug\net472\GENPRO_Design.pdb

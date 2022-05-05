@@ -1,0 +1,5 @@
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\build\obj\Debug\netcoreapp3.1\_build.csproj.AssemblyReference.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\build\obj\Debug\netcoreapp3.1\_build.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\build\obj\Debug\netcoreapp3.1\_build.AssemblyInfoInputs.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\build\obj\Debug\netcoreapp3.1\_build.AssemblyInfo.cs
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\build\obj\Debug\netcoreapp3.1\_build.csproj.CoreCompileInputs.cache
