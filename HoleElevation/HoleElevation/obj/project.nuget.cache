@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "YaGJeGP8IR5Z9mPnGvkvwtqrVdaehYn0WmLUsZEKr4RR5pEkm/d16Sd9r6zLs+rDnxLgCY16tkgJngAPSf9C4g==",
+  "dgSpecHash": "0Xo2yMQScdhLTcMGz+ULeZkrJ3mcHRKCzKE8Qmq7pRlC6RbWwn8UjSmpnmwfKop7Boj8io+WSuBNlgQSAqfscg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikitenkoaa\\.nuget\\packages\\autodesk.revit.sdk\\2020.2.1\\autodesk.revit.sdk.2020.2.1.nupkg.sha512",
+    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
     "C:\\Users\\nikitenkoaa\\.nuget\\packages\\csharpfunctionalextensions\\2.29.0\\csharpfunctionalextensions.2.29.0.nupkg.sha512",
     "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
     "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
+    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\nikitenkoaa\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []

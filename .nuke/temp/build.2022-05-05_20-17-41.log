@@ -1,0 +1,69 @@
+V |                      | HandleShellCompletion.OnBuildCreated (200)
+V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+V |                      | Passing value for RevitBuild.Solution (HoleElevation.sln)
+V |                      | InjectParameterValues.OnBuildCreated (100)
+V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+V |                      | UpdateNotification.OnBuildCreated (10)
+V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+V |                      | HandleHelpRequests.OnBuildInitialized (5)
+V |                      | CheckBuildProjectConfigurations.OnBuildInitialized (0)
+V |                      | Telemetry.OnBuildInitialized (0)
+V |                      | Sending BuildStarted telemetry event ...
+V |                      |   build_components         = 
+V |                      |   build_type               = Project
+V |                      |   compile_time             = 3
+V |                      |   config_generators        = 
+V |                      |   host                     = Rider
+V |                      |   num_custom_components    = 0
+V |                      |   num_custom_extensions    = 0
+V |                      |   num_partitioned_targets  = 0
+V |                      |   num_secrets              = 0
+V |                      |   num_targets              = 10
+V |                      |   os_architecture          = X64
+V |                      |   os_platform              = Windows
+V |                      |   repo_branch              = main
+V |                      |   repo_commit              = ae3d35
+V |                      |   repo_provider            = GitHub
+V |                      |   repo_url                 = de4b22
+V |                      |   target_framework         = .NETCoreApp,Version=v6.0
+V |                      |   version_dotnet_sdk       = 6.0.101
+V |                      |   version_nuke_common      = 6.0.2
+V |                      |   version_nuke_global_tool = 5.3.0
+V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+V | GenerateProjectProps | EventInvoker.OnTargetRunning (-3.4028235E+38)
+I | GenerateProjectProps | > "C:\Program Files\dotnet\dotnet.exe" build "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" --configuration Debug
+D | GenerateProjectProps | Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET
+D | GenerateProjectProps | (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+D | GenerateProjectProps | 
+D | GenerateProjectProps |   Определение проектов для восстановления...
+D | GenerateProjectProps |   Все проекты обновлены для восстановления.
+E | GenerateProjectProps | C:\Program Files\dotnet\sdk\6.0.101\Microsoft.Common.CurrentVersion.targets(3264,5): error MSB3823: для ресурсов, не являющихся строковыми, требуется установить значение true для свойства GenerateResourceUsePreserializedResources. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+E | GenerateProjectProps | C:\Program Files\dotnet\sdk\6.0.101\Microsoft.Common.CurrentVersion.targets(3264,5): error MSB3822: для ресурсов, не являющихся строковыми, во время выполнения требуется сборка System.Resources.Extensions, однако она не была найдена в ссылках этого проекта. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+D | GenerateProjectProps | 
+D | GenerateProjectProps | Ошибка сборки.
+D | GenerateProjectProps | 
+E | GenerateProjectProps | C:\Program Files\dotnet\sdk\6.0.101\Microsoft.Common.CurrentVersion.targets(3264,5): error MSB3823: для ресурсов, не являющихся строковыми, требуется установить значение true для свойства GenerateResourceUsePreserializedResources. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+E | GenerateProjectProps | C:\Program Files\dotnet\sdk\6.0.101\Microsoft.Common.CurrentVersion.targets(3264,5): error MSB3822: для ресурсов, не являющихся строковыми, во время выполнения требуется сборка System.Resources.Extensions, однако она не была найдена в ссылках этого проекта. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+D | GenerateProjectProps |     Предупреждений: 0
+D | GenerateProjectProps |     Ошибок: 2
+D | GenerateProjectProps | 
+D | GenerateProjectProps | Прошло времени 00:00:00.62
+E | GenerateProjectProps | Running target GenerateProjectProps failed
+Nuke.Common.Tooling.ProcessException: Process 'dotnet.exe' exited with code 1.
+   > "C:\Program Files\dotnet\dotnet.exe" build "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" --configuration Debug
+   @ C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation
+
+   at Nuke.Common.Tooling.ProcessExtensions.AssertZeroExitCode(IProcess process)
+   at Nuke.Common.Tools.DotNet.DotNetTasks.DotNetBuild(DotNetBuildSettings toolSettings)
+   at Nuke.Common.Tools.DotNet.DotNetTasks.DotNetBuild(Configure`1 configurator)
+   at Extensions.ProjectExtensions.BuildProject(Project project, String config)
+   at Generators.ProjectPropertiesGenerator.GenerateProperties(Project project, String config)
+   at RevitBuild.<get_GenerateProjectProps>b__64_3()
+   at Nuke.Common.Execution.BuildExecutor.<>c.<Execute>b__4_2(Action x)
+   at Nuke.Common.Utilities.Collections.EnumerableExtensions.ForEach[T](IEnumerable`1 enumerable, Action`1 action)
+   at Nuke.Common.Execution.BuildExecutor.Execute(NukeBuild build, ExecutableTarget target, IReadOnlyCollection`1 previouslyExecutedTargets, Boolean failureMode)
+V | GenerateProjectProps | EventInvoker.OnTargetFailed (-3.4028235E+38)

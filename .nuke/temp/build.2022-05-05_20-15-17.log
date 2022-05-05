@@ -1,0 +1,110 @@
+V |                      | HandleShellCompletion.OnBuildCreated (200)
+V |                      | ArgumentsFromParametersFile.OnBuildCreated (150)
+V |                      | Passing value for RevitBuild.Solution (HoleElevation.sln)
+V |                      | InjectParameterValues.OnBuildCreated (100)
+V |                      | GenerateBuildServerConfigurations.OnBuildCreated (50)
+V |                      | InvokeBuildServerConfigurationGeneration.OnBuildCreated (45)
+V |                      | UpdateNotification.OnBuildCreated (10)
+V |                      | UnsetVisualStudioEnvironmentVariables.OnBuildCreated (0)
+V |                      | HandleVisualStudioDebugging.OnBuildCreated (0)
+V |                      | EventInvoker.OnBuildCreated (-3.4028235E+38)
+V |                      | HandleHelpRequests.OnBuildInitialized (5)
+V |                      | CheckBuildProjectConfigurations.OnBuildInitialized (0)
+V |                      | Telemetry.OnBuildInitialized (0)
+V |                      | Sending BuildStarted telemetry event ...
+V |                      |   build_components         = 
+V |                      |   build_type               = Project
+V |                      |   compile_time             = 5
+V |                      |   config_generators        = 
+V |                      |   host                     = Rider
+V |                      |   num_custom_components    = 0
+V |                      |   num_custom_extensions    = 0
+V |                      |   num_partitioned_targets  = 0
+V |                      |   num_secrets              = 0
+V |                      |   num_targets              = 10
+V |                      |   os_architecture          = X64
+V |                      |   os_platform              = Windows
+V |                      |   repo_branch              = main
+V |                      |   repo_commit              = ae3d35
+V |                      |   repo_provider            = GitHub
+V |                      |   repo_url                 = de4b22
+V |                      |   target_framework         = .NETCoreApp,Version=v6.0
+V |                      |   version_dotnet_sdk       = 6.0.101
+V |                      |   version_nuke_common      = 6.0.2
+V |                      |   version_nuke_global_tool = 5.3.0
+V |                      | InjectNonParameterValues.OnBuildInitialized (-100)
+V |                      | EventInvoker.OnBuildInitialized (-3.4028235E+38)
+V | Clean                | EventInvoker.OnTargetRunning (-3.4028235E+38)
+V | Clean                | Telemetry.OnTargetSucceeded (0)
+V | Clean                | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+V | Restore              | EventInvoker.OnTargetRunning (-3.4028235E+38)
+I | Restore              | > "C:\Program Files\dotnet\dotnet.exe" restore "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation.sln"
+D | Restore              |   Определение проектов для восстановления...
+D | Restore              |   Восстановлен C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj (за 133 ms).
+D | Restore              |   Восстановлен C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj (за 133 ms).
+V | Restore              | Telemetry.OnTargetSucceeded (0)
+V | Restore              | Sending TargetSucceeded telemetry event ...
+V | Restore              |   build_components         = 
+V | Restore              |   build_type               = Project
+V | Restore              |   compile_time             = 16
+V | Restore              |   config_generators        = 
+V | Restore              |   host                     = Rider
+V | Restore              |   num_custom_components    = 0
+V | Restore              |   num_custom_extensions    = 0
+V | Restore              |   num_partitioned_targets  = 0
+V | Restore              |   num_secrets              = 0
+V | Restore              |   num_targets              = 10
+V | Restore              |   os_architecture          = X64
+V | Restore              |   os_platform              = Windows
+V | Restore              |   repo_branch              = main
+V | Restore              |   repo_commit              = ae3d35
+V | Restore              |   repo_provider            = GitHub
+V | Restore              |   repo_url                 = de4b22
+V | Restore              |   target_current_partition = 1
+V | Restore              |   target_duration          = 1
+V | Restore              |   target_framework         = .NETCoreApp,Version=v6.0
+V | Restore              |   target_name              = Restore
+V | Restore              |   target_total_partitions  = 1
+V | Restore              |   version_dotnet_sdk       = 6.0.101
+V | Restore              |   version_nuke_common      = 6.0.2
+V | Restore              |   version_nuke_global_tool = 5.3.0
+V | Restore              | EventInvoker.OnTargetSucceeded (-3.4028235E+38)
+V | CompileToTemp        | EventInvoker.OnTargetRunning (-3.4028235E+38)
+I | CompileToTemp        | > "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" /p:Platform=x64 /p:OutDir=C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_85659d37-fd8d-4b2a-9289-7dc74be93a0b\bin /p:Configuration=Debug
+D | CompileToTemp        | Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
+D | CompileToTemp        | (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+D | CompileToTemp        | 
+D | CompileToTemp        | Сборка начата 05.05.2022 20:15:30.
+D | CompileToTemp        | Проект "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" в узле 1 (целевые объекты по умолчанию).
+D | CompileToTemp        | PrepareForBuild:
+D | CompileToTemp        |   Создание каталога "C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_85659d37-fd8d-4b2a-9289-7dc74be93a0b\bin\".
+D | CompileToTemp        |   Создание каталога "obj\x64\Debug\net472\".
+D | CompileToTemp        | Проект "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" (1) выполняет сборку "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj" (2:2) в узле 1 (целевые объекты по умолчанию).
+D | CompileToTemp        | C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error : Your project file doesn't list 'win-x64' as a "RuntimeIdentifier". You should add 'win-x64' to the "RuntimeIdentifiers" property in your project file and then re-run NuGet restore. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+D | CompileToTemp        | Сборка проекта "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj" завершена (целевые объекты по умолчанию) с ошибкой.
+D | CompileToTemp        | Сборка проекта "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" завершена (целевые объекты по умолчанию) с ошибкой.
+D | CompileToTemp        | 
+D | CompileToTemp        | Ошибка сборки.
+D | CompileToTemp        | 
+D | CompileToTemp        | "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" (целевой объект по умолчанию) (1) ->
+D | CompileToTemp        | "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj" (целевой объект по умолчанию) (2:2) ->
+D | CompileToTemp        | (Целевой объект ResolveNuGetPackageAssets) -> 
+D | CompileToTemp        |   C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(198,5): error : Your project file doesn't list 'win-x64' as a "RuntimeIdentifier". You should add 'win-x64' to the "RuntimeIdentifiers" property in your project file and then re-run NuGet restore. [C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\GENPRO_Design\GENPRO_Design.csproj]
+D | CompileToTemp        | 
+D | CompileToTemp        |     Предупреждений: 0
+D | CompileToTemp        |     Ошибок: 1
+D | CompileToTemp        | 
+D | CompileToTemp        | Прошло времени 00:00:00.59
+E | CompileToTemp        | Running target CompileToTemp failed
+Nuke.Common.Tooling.ProcessException: Process 'MSBuild.exe' exited with code 1.
+   > "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\HoleElevation.csproj" /p:Platform=x64 /p:OutDir=C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_85659d37-fd8d-4b2a-9289-7dc74be93a0b\bin /p:Configuration=Debug
+   @ C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation
+
+   at Nuke.Common.Tooling.ProcessExtensions.AssertZeroExitCode(IProcess process)
+   at Nuke.Common.Tools.MSBuild.MSBuildTasks.MSBuild(MSBuildSettings toolSettings)
+   at Nuke.Common.Tools.MSBuild.MSBuildTasks.MSBuild(Configure`1 configurator)
+   at RevitBuild.<get_CompileToTemp>b__60_3()
+   at Nuke.Common.Execution.BuildExecutor.<>c.<Execute>b__4_2(Action x)
+   at Nuke.Common.Utilities.Collections.EnumerableExtensions.ForEach[T](IEnumerable`1 enumerable, Action`1 action)
+   at Nuke.Common.Execution.BuildExecutor.Execute(NukeBuild build, ExecutableTarget target, IReadOnlyCollection`1 previouslyExecutedTargets, Boolean failureMode)
+V | CompileToTemp        | EventInvoker.OnTargetFailed (-3.4028235E+38)

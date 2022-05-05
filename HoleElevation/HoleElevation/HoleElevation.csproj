@@ -9,6 +9,7 @@
     <LangVersion>latest</LangVersion>
     <TargetFramework>net48</TargetFramework>
     <Platforms>x64;AnyCPU</Platforms>
+    <UseWpf>true</UseWpf>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'R2022' ">
     <TargetFramework>net48</TargetFramework>
@@ -30,6 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CSharpFunctionalExtensions" Version="2.29.0" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
