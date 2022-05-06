@@ -76,7 +76,7 @@
 
             var tr = new Transaction(_doc, "1");
             tr.Start();
-            if (!param.SetParameterValue(level.Elevation))
+            if (!param.SetParameterValue(level.Elevation.FtToMm()))
             {
                 AddProblem(
                     $"Не удалось заполнить значение параметра \"{PluginSettings.LevelParameterName}\": ",
@@ -167,14 +167,14 @@
         private string GenerateMessage()
         {
             var sb = new StringBuilder();
-            sb.Append("Отчет по работе плагина:");
+            sb.Append("\t\tОтчет по работе плагина:");
             foreach (var problem in _dictWithProblems)
             {
                 if (!problem.Value.Any())
                     continue;
                 var localSb = new StringBuilder();
                 problem.Value.ToList().ForEach(i => localSb.Append($" {i};"));
-                sb.Append($"\n\t{problem.Key}\n{localSb}");
+                sb.Append($"\n\n{problem.Key}\n{localSb}");
             }
 
             return sb.ToString();

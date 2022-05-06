@@ -52,6 +52,7 @@
         {
             try
             {
+                win.Hide();
                 _windowManagerService.SetWindowElevation(FamilyStartWithList)
                     .OnFailure(err => GenproWindow.Error(err))
                     .Tap(res => GenproWindow.Information(res));

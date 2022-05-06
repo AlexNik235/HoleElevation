@@ -35,10 +35,10 @@
             try
             {
                 var familyStartNames = familiesNames.Split(PluginSettings.Delimiter)
-                    .Select(i => i.Trim()).ToList();
+                    .Select(i => i.Trim()).Where(i => !string.IsNullOrEmpty(i)).ToList();
                 return new FilteredElementCollector(_doc).WhereElementIsNotElementType()
                     .WherePasses(new ElementMulticategoryFilter(PluginSettings.TargetElementCategory))
-                    .Where(i => familyStartNames.Any(startName => i.Name.StartsWith(startName)))
+                    .Where(i => familyStartNames.Any(startName => i.Name.Contains(startName)))
                     .ToList();
             }
             catch (Exception e)

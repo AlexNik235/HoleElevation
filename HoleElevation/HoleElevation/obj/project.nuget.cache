@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "0Xo2yMQScdhLTcMGz+ULeZkrJ3mcHRKCzKE8Qmq7pRlC6RbWwn8UjSmpnmwfKop7Boj8io+WSuBNlgQSAqfscg==",
+  "dgSpecHash": "YVO4Zr+Ul6LY+P4D2AykqfW/+kpkyqwBfpfTg5h66NNNYGG9QPf86Kc0lW4XyVop/43XUv6YYNBOYzrhpyQaiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
+  "projectFilePath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\autodesk.revit.sdk\\2020.2.1\\autodesk.revit.sdk.2020.2.1.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\csharpfunctionalextensions\\2.29.0\\csharpfunctionalextensions.2.29.0.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+    "C:\\Users\\Undea\\.nuget\\packages\\autodesk.revit.sdk\\2020.2.1\\autodesk.revit.sdk.2020.2.1.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\csharpfunctionalextensions\\2.29.0\\csharpfunctionalextensions.2.29.0.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\Undea\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
 }

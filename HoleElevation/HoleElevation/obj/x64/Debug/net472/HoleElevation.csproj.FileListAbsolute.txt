@@ -1,29 +1,29 @@
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\HoleElevation.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\HoleElevation.pdb
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\CSharpFunctionalExtensions.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignColors.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignThemes.Wpf.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GENPRO_Design.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GENPRO_Design.pdb
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.AssemblyReference.cache
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfoInputs.cache
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfo.cs
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.CoreCompileInputs.cache
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.CopyComplete
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.pdb
-C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_ac311122-c73f-4506-98f4-543af2a271d2\bin\HoleElevation.dll
-C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_ac311122-c73f-4506-98f4-543af2a271d2\bin\HoleElevation.pdb
-C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_82a4a6b6-01ab-43cc-9eff-0f0d418623d4\bin\HoleElevation.dll
-C:\Users\nikitenkoaa\AppData\Local\Temp\RxBim_build_82a4a6b6-01ab-43cc-9eff-0f0d418623d4\bin\HoleElevation.pdb
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\CommonServiceLocator.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.Extras.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.Platform.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\System.Windows.Interactivity.dll
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.g.cs
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.cache
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.lref
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.baml
-C:\Users\nikitenkoaa\Desktop\Тестовые проекты\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.g.resources
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\HoleElevation.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\HoleElevation.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\CommonServiceLocator.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\CSharpFunctionalExtensions.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GalaSoft.MvvmLight.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\System.Windows.Interactivity.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GENPRO_Design.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignColors.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignThemes.Wpf.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\GENPRO_Design.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignColors.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignThemes.Wpf.pdb
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.AssemblyReference.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.g.cs
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.lref
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.baml
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.g.resources
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfoInputs.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfo.cs
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.CoreCompileInputs.cache
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.CopyComplete
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.dll
+C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.pdb
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_49513405-722f-4829-b350-f70c19784485\bin\HoleElevation.dll
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_49513405-722f-4829-b350-f70c19784485\bin\HoleElevation.pdb

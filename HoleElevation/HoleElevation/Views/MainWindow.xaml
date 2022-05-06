@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:HoleElevation.ViewModels"
         mc:Ignorable="d" Name="Win"
         d:DataContext="{d:DesignInstance local:MainContext, IsDesignTimeCreatable=False}"
-        Title="MainWindow" SizeToContent="WidthAndHeight">
+        Title="Отметка отверстий" SizeToContent="WidthAndHeight">
     
     <Window.Resources>
         <ResourceDictionary>
@@ -16,8 +16,7 @@
         </ResourceDictionary>
     </Window.Resources>
     
-    <Grid
-        Margin="10">
+    <Grid>
          <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
@@ -31,20 +30,33 @@
         <TextBlock 
             Grid.Column="0"
             Grid.Row="0"
+            Margin="5"
+            VerticalAlignment="Center"
             Text="Введите начало имен семейств: "/>
         
         <!-- Lable для text box -->
-        <TextBox 
+        <Border
+            Margin="5"
             Grid.Column="1"
             Grid.Row="0"
-            ToolTip="Вводятся первые буквы для поиска семейств, разделителем для имен выступает знак - ;"
+            BorderBrush="Black"
+            CornerRadius="5"
+            BorderThickness="1">
+            
+            <TextBox 
+            MinWidth="50"
+            VerticalAlignment="Center"
+            ToolTip="Введите слова, которые содержатся в семействах отверстий с разделителем - ;"
             Text="{Binding FamilyStartWithList}"/>
+        </Border>
+        
         
         <!-- Кнопка для выполнения команды-->
         <Button 
             Grid.Column="0"
             Grid.ColumnSpan="2"
             Grid.Row="1"
+            Margin="10"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Content="Выполнить"

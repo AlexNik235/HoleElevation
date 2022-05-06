@@ -433,24 +433,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nikitenkoaa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Undea\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
+      "projectUniqueName": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
       "projectName": "HoleElevation",
-      "projectPath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
-      "packagesPath": "C:\\Users\\nikitenkoaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\HoleElevation\\obj\\",
+      "projectPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\HoleElevation\\HoleElevation.csproj",
+      "packagesPath": "C:\\Users\\Undea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\HoleElevation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nikitenkoaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Undea\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -458,15 +457,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\RevitNuke\\RevitNuke\\RevitBuildProject\\bin\\Debug": {},
+        "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\locaNugets": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
-            "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj": {
-              "projectPath": "C:\\Users\\nikitenkoaa\\Desktop\\Тестовые проекты\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj"
+            "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj": {
+              "projectPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj"
             }
           }
         }
@@ -501,7 +500,7 @@
             "version": "[1.1.118, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
