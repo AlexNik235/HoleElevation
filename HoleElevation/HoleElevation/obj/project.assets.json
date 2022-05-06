@@ -70,7 +70,7 @@
           "lib/net452/MaterialDesignThemes.Wpf.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/MaterialDesignThemes.targets": {}
         }
       },
       "MvvmLight/5.4.1.1": {
@@ -102,11 +102,6 @@
       },
       "GENPRO_Design/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v4.7.2",
-        "dependencies": {
-          "MaterialDesignColors": "2.0.3",
-          "MaterialDesignThemes": "4.2.1"
-        },
         "compile": {
           "bin/placeholder/GENPRO_Design.dll": {}
         },
@@ -428,6 +423,7 @@
       "Autodesk.Revit.SDK >= 2020.2.1",
       "CSharpFunctionalExtensions >= 2.29.0",
       "GENPRO_Design >= 1.0.0",
+      "MaterialDesignThemes >= 4.2.1",
       "MvvmLight >= 5.4.1.1",
       "StyleCop.Analyzers >= 1.1.118"
     ]
@@ -488,6 +484,10 @@
           "CSharpFunctionalExtensions": {
             "target": "Package",
             "version": "[2.29.0, )"
+          },
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           },
           "MvvmLight": {
             "target": "Package",

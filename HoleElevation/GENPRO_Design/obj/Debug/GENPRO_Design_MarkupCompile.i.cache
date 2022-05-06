@@ -16,5 +16,5 @@ false
 19-1811065766
 DialogWindow\CommonInfoWindow.xaml;DialogWindow\CreateNameWindow.xaml;DialogWindow\GenproProgressBarWindow.xaml;DialogWindow\InputWindow.xaml;DialogWindow\QuestionWindow.xaml;DialogWindow\RenameWindow.xaml;GenproDesignDictionary.xaml;
 
-True
+False
 
