@@ -6,7 +6,7 @@
         <UseWPF>true</UseWPF>
 		<LangVersion>latest</LangVersion>
 		<RootNamespace>LogWindow</RootNamespace>
-		<CodeAnalysisRuleSet>..\stylecop.ruleset</CodeAnalysisRuleSet>
+		<CodeAnalysisRuleSet>stylecop.ruleset</CodeAnalysisRuleSet>
 		<Configurations>Debug;R2022;R2021;R2020</Configurations>
         <AssemblyName>$(MSBuildProjectName).$(ApiVersion)</AssemblyName>
         <IncludePackageReferencesDuringMarkupCompilation>false</IncludePackageReferencesDuringMarkupCompilation>

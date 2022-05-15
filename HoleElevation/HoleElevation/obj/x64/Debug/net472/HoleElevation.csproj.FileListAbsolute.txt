@@ -32,3 +32,5 @@ C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f7
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f79f\bin\HoleElevation.pdb
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\bin\HoleElevation.dll
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\bin\HoleElevation.pdb
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_008ee357-64d0-4f7c-aa94-0dc0968fa434\bin\HoleElevation.dll
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_008ee357-64d0-4f7c-aa94-0dc0968fa434\bin\HoleElevation.pdb

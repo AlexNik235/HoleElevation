@@ -6,10 +6,10 @@
     using Autodesk.Revit.DB;
     using Autodesk.Revit.UI;
     using CSharpFunctionalExtensions;
-    using Extensions;
+    using HoleElevation.Extensions;
+    using HoleElevation.Models;
     using LogWindow.Abstractions;
     using LogWindow.Models;
-    using Models;
 
     /// <summary>
     /// Сервис по работе с отверстиями
@@ -62,7 +62,7 @@
                 _displayLoger.AddMessage(
                     new ErrorMessage(
                         "Не удалось определить уровень для элеметов: ",
-                        "Id элементов", 
+                        "Id элементов",
                         new CommonBaseObjectId(element.Id.IntegerValue)));
                 _displayLoger.AddMessage(
                     new ErrorMessage(

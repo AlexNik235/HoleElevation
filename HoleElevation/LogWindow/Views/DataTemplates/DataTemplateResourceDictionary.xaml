@@ -162,7 +162,15 @@
             </ItemsControl>
         </Expander>
     </DataTemplate>
-    
+
+    <DataTemplate DataType="{x:Type models:UnionInfoMessage}">
+        <TextBox
+            Margin="36,4,0,4"
+            Padding="0,4"
+            Style="{DynamicResource {x:Type TextBox}}"
+            Text="{Binding ., Mode=OneTime}" />
+    </DataTemplate>
+
     <DataTemplate DataType="{x:Type models:CommonErrorMessage}">
         <Expander
             Background="{DynamicResource SecondBackground}"

@@ -102,6 +102,11 @@
       },
       "GENPRO_Design/1.0.0": {
         "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "MaterialDesignColors": "2.0.3",
+          "MaterialDesignThemes": "4.2.1"
+        },
         "compile": {
           "bin/placeholder/GENPRO_Design.dll": {}
         },
