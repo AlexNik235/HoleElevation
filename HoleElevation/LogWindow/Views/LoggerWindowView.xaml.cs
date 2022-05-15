@@ -3,6 +3,7 @@
     using System;
     using System.Runtime.InteropServices;
     using System.Windows.Interop;
+    using GENPRO_Design.WpfHelper;
     using LogWindow.Abstractions;
     using ViewModels;
 
@@ -17,6 +18,10 @@
         {
             InitializeComponent();
             DataContext = loggerWindowViewModel;
+
+            var kostil1 = new WindowOpener();
+            var kostil2 = new MaterialDesignThemes.Wpf.Badged();
+            var kostil3 = new MaterialDesignColors.Recommended.AmberSwatch();
         }
 
         /// <inheritdoc />

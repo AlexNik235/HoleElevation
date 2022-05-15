@@ -32,3 +32,5 @@ C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleE
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\LogWindow\obj\x64\Debug\net472\LogWindow.csproj.CopyComplete
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\LogWindow\obj\x64\Debug\net472\LogWindow..dll
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\LogWindow\obj\x64\Debug\net472\LogWindow..pdb
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_5559873f-d321-416d-b59e-d5de4964bf6c\bin\LogWindow..dll
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_5559873f-d321-416d-b59e-d5de4964bf6c\bin\LogWindow..pdb
