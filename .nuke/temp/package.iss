@@ -2,16 +2,16 @@
 [Setup]
 AppName=HoleElevation
 AppId={{89f46c75-b999-4a28-bb63-dc776b2a3170}
-AppVersion=1.0.0.1651860650
+AppVersion=1.0.0.1652621935
 DefaultDirName={userappdata}/Autodesk/Revit/Addins/2020\HoleElevation
 UsePreviousAppDir=no
 PrivilegesRequired=lowest
-OutputBaseFilename=HoleElevation_1.0.0.1651860650
+OutputBaseFilename=HoleElevation_1.0.0.1652621935
 DisableDirPage=yes
 
 [Files]
-Source: "C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f79f\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs; 
-Source: "C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f79f\*"; DestDir: "{userappdata}/Autodesk/Revit/Addins/2020"; 
+Source: "C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs; 
+Source: "C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\*"; DestDir: "{userappdata}/Autodesk/Revit/Addins/2020"; 
 
 [Code]
 function GetUninstallString(): String;

@@ -13,11 +13,6 @@ C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleE
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignColors.pdb
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\bin\x64\Debug\net472\MaterialDesignThemes.Wpf.pdb
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.csproj.AssemblyReference.cache
-C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.g.cs
-C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.cache
-C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation_MarkupCompile.lref
-C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\Views\MainWindow.baml
-C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.g.resources
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfoInputs.cache
 C:\Users\Undea\OneDrive\Рабочий стол\WorkProjects\HoleElevation\HoleElevation\HoleElevation\obj\x64\Debug\net472\HoleElevation.AssemblyInfo.cs
@@ -35,3 +30,5 @@ C:\Users\Undea\AppData\Local\Temp\RxBim_build_a864cd93-6f73-428c-b141-1cc1b8e9d9
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_a864cd93-6f73-428c-b141-1cc1b8e9d97d\bin\HoleElevation.pdb
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f79f\bin\HoleElevation.dll
 C:\Users\Undea\AppData\Local\Temp\RxBim_build_1e4d35fa-e651-4bf1-82cd-933a8646f79f\bin\HoleElevation.pdb
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\bin\HoleElevation.dll
+C:\Users\Undea\AppData\Local\Temp\RxBim_build_5f08a4c7-33a7-4b6a-8646-47cec80136d7\bin\HoleElevation.pdb

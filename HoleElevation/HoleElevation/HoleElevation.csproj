@@ -8,9 +8,10 @@
     <CodeAnalysisRuleSet>..\stylecop.ruleset</CodeAnalysisRuleSet>
     <LangVersion>latest</LangVersion>
     <TargetFramework>net48</TargetFramework>
-    <Platforms>x64;AnyCPU</Platforms>
+    <Platforms>x64</Platforms>
     <UseWpf>true</UseWpf>
   </PropertyGroup>
+	
   <PropertyGroup Condition=" '$(Configuration)' == 'R2022' ">
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
@@ -31,8 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CSharpFunctionalExtensions" Version="2.29.0" />
-    <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
-    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -40,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GENPRO_Design\GENPRO_Design.csproj" />
+    <ProjectReference Include="..\LogWindow\LogWindow.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <PackageGuid>89f46c75-b999-4a28-bb63-dc776b2a3170</PackageGuid>

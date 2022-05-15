@@ -3,11 +3,12 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
     using Autodesk.Revit.DB;
     using Autodesk.Revit.UI;
     using CSharpFunctionalExtensions;
     using Extensions;
+    using LogWindow.Abstractions;
+    using LogWindow.Models;
     using Models;
 
     /// <summary>
@@ -16,17 +17,19 @@
     public class WindowManagerService
     {
         private readonly Document _doc;
+        private readonly IDisplayLogger _displayLoger;
         private readonly GetElementService _getElementService;
-        private readonly Dictionary<string, HashSet<int>> _dictWithProblems = new ();
 
         /// <summary>
         /// ctor
         /// </summary>
-        /// <param name="uiDocument">UI document</param>
-        public WindowManagerService(UIDocument uiDocument)
+        /// <param name="uIApplication">UI application</param>
+        /// <param name="displayLoger">Логер</param>
+        public WindowManagerService(UIApplication uIApplication, IDisplayLogger displayLoger)
         {
-            _doc = uiDocument.Document;
-            _getElementService = new GetElementService(uiDocument);
+            _doc = uIApplication.ActiveUIDocument.Document;
+            _getElementService = new GetElementService(uIApplication.ActiveUIDocument);
+            _displayLoger = displayLoger;
         }
 
         /// <summary>
@@ -34,17 +37,16 @@
         /// </summary>
         /// <param name="familiesStartSymbs">Начальные части имен семейств</param>
         /// <returns>Отчет о работе</returns>
-        public Result<string> SetWindowElevation(string familiesStartSymbs)
+        public CSharpFunctionalExtensions.Result SetWindowElevation()
         {
-            return _getElementService.GetWindows(familiesStartSymbs)
+            return _getElementService.GetWindows()
                 .Bind(SetLevelParameters)
-                .Bind(CheckParameters)
-                .Map(GenerateMessage);
+                .Bind(CheckParameters);
         }
 
         private Result<List<Element>> SetLevelParameters(List<Element> elements)
         {
-            AddProblem("Всего отверстий найдено для обработки: ", elements.Count);
+            _displayLoger.AddMessage(new InfoMessage($"Всего отверстий найдено для обработки: {elements.Count}"));
             var transactionGroup = new TransactionGroup(_doc, "Установка параметров отверстиям");
             transactionGroup.Start();
             var validElements = elements.Where(SetLevelParam).ToList();
@@ -57,8 +59,16 @@
             var levelId = element.LevelId;
             if (levelId == ElementId.InvalidElementId || levelId == null)
             {
-                AddProblem("Не удалось определить уровень для элеметов: ", element.Id.IntegerValue);
-                AddProblem("Элементы пропущены, так как у них возникли ошибки при валидации: ", element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Не удалось определить уровень для элеметов: ",
+                        "Id элементов", 
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
                 return false;
             }
 
@@ -67,10 +77,17 @@
             var param = element.GetParameterFromInstanceOrType(PluginSettings.LevelParameterName);
             if (param == null)
             {
-                AddProblem(
-                    $"Не удалось найти параметр \"{PluginSettings.LevelParameterName}\" для заполнения уровня у элементов: ",
-                    element.Id.IntegerValue);
-                AddProblem("Элементы пропущены, так как у них возникли ошибки при валидации: ", element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось найти параметр \"{PluginSettings.LevelParameterName}\" для заполнения уровня у элементов: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
                 return false;
             }
 
@@ -78,9 +95,11 @@
             tr.Start();
             if (!param.SetParameterValue(level.Elevation.FtToMm()))
             {
-                AddProblem(
-                    $"Не удалось заполнить значение параметра \"{PluginSettings.LevelParameterName}\": ",
-                    element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось заполнить значение параметра \"{PluginSettings.LevelParameterName}\": ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
             }
 
             tr.Commit();
@@ -102,18 +121,27 @@
             var param = element.GetParameterFromInstanceOrType(PluginSettings.CheckParameterName);
             if (param == null)
             {
-                AddProblem(
-                    $"Не удалось найти параметр \"{PluginSettings.CheckParameterName}\" для заполнения уровня у элементов: ",
-                    element.Id.IntegerValue);
-                AddProblem("Элементы пропущены, так как у них возникли ошибки при валидации: ", element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось найти параметр \"{PluginSettings.CheckParameterName}\" для заполнения уровня у элементов: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
                 return;
             }
 
             if (param.GetParameterValue<double>() > PluginSettings.Tolerance)
             {
-                AddProblem(
-                    $"Значение параметра \"{PluginSettings.CheckParameterName}\" > 0 у элементов: ",
-                    element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Значение параметра \"{PluginSettings.CheckParameterName}\" > 0 у элементов: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
             }
         }
 
@@ -124,60 +152,97 @@
             var supportParam = element.GetParameterFromInstanceOrType(PluginSettings.SupportParamName);
             if (supportParam == null)
             {
-                AddProblem(
-                    $"Не удалось найти параметр \"{PluginSettings.SupportParamName}\": ",
-                    element.Id.IntegerValue);
-                AddProblem("Элементы пропущены, так как у них возникли ошибки при валидации: ", element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось найти параметр \"{PluginSettings.SupportParamName}\": ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                return;
+            }
+
+            var windowCheckShapeParam = element.GetParameterFromInstanceOrType(PluginSettings.ParameterForCheckShape);
+            if (windowCheckShapeParam == null)
+            {
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось узнать форму отверстия, т.к. отсутствует параметр {PluginSettings.ParameterForCheckShape}",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
                 return;
             }
 
             var checkParameter = element.GetParameterFromInstanceOrType(PluginSettings.SupportParamForCheckElevation);
             if (checkParameter == null)
             {
-                AddProblem(
-                    $"Не удалось найти параметр \"{PluginSettings.SupportParamForCheckElevation}\": ",
-                    element.Id.IntegerValue);
-                AddProblem("Элементы пропущены, так как у них возникли ошибки при валидации: ", element.Id.IntegerValue);
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        $"Не удалось найти параметр \"{PluginSettings.SupportParamForCheckElevation}\": ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
+
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
                 return;
             }
 
-            var difference = Math.Abs(checkParameter.GetParameterValue<double>() -
-                                      supportParam.GetParameterValue<double>() - level.Elevation);
-            if (difference > PluginSettings.Tolerance)
+            double difference = 0;
+            if (windowCheckShapeParam.GetParameterValue<bool>())
             {
-                AddProblem(
-                    "Не прошели проверку на отметку отв, разница между параметром " +
-                    $"{PluginSettings.SupportParamForCheckElevation} и {PluginSettings.SupportParamName} " +
-                    $"+ отметка уровня различаются: ", element.Id.IntegerValue);
-            }
-        }
+                var radiusParam = element.GetParameterFromInstanceOrType(PluginSettings.SupportParamForCheckElevationRound);
+                if (checkParameter == null)
+                {
+                    _displayLoger.AddMessage(
+                        new ErrorMessage(
+                            $"Не удалось найти параметр \"{PluginSettings.SupportParamForCheckElevation}\": ",
+                            "Id элементов",
+                            new CommonBaseObjectId(element.Id.IntegerValue)));
 
-        private void AddProblem(string problem, int id)
-        {
-            if (_dictWithProblems.ContainsKey(problem))
-            {
-                _dictWithProblems[problem].Add(id);
+                    _displayLoger.AddMessage(
+                        new ErrorMessage(
+                            "Элементы пропущены, так как у них возникли ошибки при валидации: ",
+                            "Id элементов",
+                            new CommonBaseObjectId(element.Id.IntegerValue)));
+                    return;
+                }
+
+                difference = Math.Abs(checkParameter.GetParameterValue<double>()
+                                      - supportParam.GetParameterValue<double>()
+                                      - level.Elevation
+                                      - radiusParam.GetParameterValue<double>());
             }
             else
             {
-                _dictWithProblems.Add(problem, new HashSet<int> { id });
+                difference = Math.Abs(checkParameter.GetParameterValue<double>() -
+                                      supportParam.GetParameterValue<double>() - level.Elevation);
             }
-        }
 
-        private string GenerateMessage()
-        {
-            var sb = new StringBuilder();
-            sb.Append("\t\tОтчет по работе плагина:");
-            foreach (var problem in _dictWithProblems)
+            if (difference > PluginSettings.Tolerance)
             {
-                if (!problem.Value.Any())
-                    continue;
-                var localSb = new StringBuilder();
-                problem.Value.ToList().ForEach(i => localSb.Append($" {i};"));
-                sb.Append($"\n\n{problem.Key}\n{localSb}");
+                _displayLoger.AddMessage(
+                    new ErrorMessage(
+                        "Не прошели проверку на отметку отв, разница между параметром " +
+                    $"{PluginSettings.SupportParamForCheckElevation} и {PluginSettings.SupportParamName} " +
+                    $"+ отметка уровня различаются: ",
+                        "Id элементов",
+                        new CommonBaseObjectId(element.Id.IntegerValue)));
             }
-
-            return sb.ToString();
         }
     }
 }

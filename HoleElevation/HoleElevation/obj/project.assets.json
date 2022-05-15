@@ -70,7 +70,7 @@
           "lib/net452/MaterialDesignThemes.Wpf.dll": {}
         },
         "build": {
-          "build/MaterialDesignThemes.targets": {}
+          "build/_._": {}
         }
       },
       "MvvmLight/5.4.1.1": {
@@ -107,6 +107,23 @@
         },
         "runtime": {
           "bin/placeholder/GENPRO_Design.dll": {}
+        }
+      },
+      "LogWindow./1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Autodesk.Revit.SDK": "2020.2.1",
+          "CSharpFunctionalExtensions": "2.29.0",
+          "GENPRO_Design": "1.0.0",
+          "MaterialDesignThemes": "4.2.1",
+          "MvvmLight": "5.4.1.1"
+        },
+        "compile": {
+          "bin/placeholder/LogWindow..dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogWindow..dll": {}
         }
       }
     }
@@ -416,6 +433,11 @@
       "type": "project",
       "path": "../GENPRO_Design/GENPRO_Design.csproj",
       "msbuildProject": "../GENPRO_Design/GENPRO_Design.csproj"
+    },
+    "LogWindow./1.0.0": {
+      "type": "project",
+      "path": "../LogWindow/LogWindow.csproj",
+      "msbuildProject": "../LogWindow/LogWindow.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -423,8 +445,7 @@
       "Autodesk.Revit.SDK >= 2020.2.1",
       "CSharpFunctionalExtensions >= 2.29.0",
       "GENPRO_Design >= 1.0.0",
-      "MaterialDesignThemes >= 4.2.1",
-      "MvvmLight >= 5.4.1.1",
+      "LogWindow. >= 1.0.0",
       "StyleCop.Analyzers >= 1.1.118"
     ]
   },
@@ -462,6 +483,9 @@
           "projectReferences": {
             "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj": {
               "projectPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\GENPRO_Design\\GENPRO_Design.csproj"
+            },
+            "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\LogWindow\\LogWindow.csproj": {
+              "projectPath": "C:\\Users\\Undea\\OneDrive\\Рабочий стол\\WorkProjects\\HoleElevation\\HoleElevation\\LogWindow\\LogWindow.csproj"
             }
           }
         }
@@ -484,14 +508,6 @@
           "CSharpFunctionalExtensions": {
             "target": "Package",
             "version": "[2.29.0, )"
-          },
-          "MaterialDesignThemes": {
-            "target": "Package",
-            "version": "[4.2.1, )"
-          },
-          "MvvmLight": {
-            "target": "Package",
-            "version": "[5.4.1.1, )"
           },
           "StyleCop.Analyzers": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

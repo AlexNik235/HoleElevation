@@ -9,9 +9,24 @@
     public static class PluginSettings
     {
         /// <summary>
-        /// Разделитель между именами семейств
+        /// Имя плагина
         /// </summary>
-        public static char Delimiter => ';';
+        public static string Name => "Отметка отверстий";
+
+        /// <summary>
+        /// Описание плагина
+        /// </summary>
+        public static string Description => "Запись отметки уровня в параметр Отметка этажа";
+
+        /// <summary>
+        /// Картинка к плагину
+        /// </summary>
+        public static string Picture => "additionally_32x32";
+
+        /// <summary>
+        /// Версия плагина
+        /// </summary>
+        public static string Version => "1.0";
 
         /// <summary>
         /// Целевые категории для фильтрации семейств
@@ -19,6 +34,16 @@
         public static List<BuiltInCategory> TargetElementCategory => new ()
         {
             BuiltInCategory.OST_Windows
+        };
+
+        /// <summary>
+        /// Имя семейств отв. для выбора
+        /// </summary>
+        public static HashSet<string> FamilyNames => new HashSet<string>()
+        {
+            "GEN_Отверстие_Круглое_Стена",
+            "GEN_Отверстие_Прямоугольное_Стена",
+            "GEN_Проем"
         };
 
         /// <summary>
@@ -37,13 +62,23 @@
         public static double Tolerance => 0.000006;
 
         /// <summary>
-        /// Вспомогательный параметр для расчета
+        /// Параметр для сравнения, который получает свое значение в результате расчета по формулам координатора
         /// </summary>
-        public static string SupportParamName => "Возвышение";
+        public static string SupportParamName => "Отметка";
         
         /// <summary>
         /// Вспомогательный параметр для уровня
         /// </summary>
         public static string SupportParamForCheckElevation => "Возвышение";
+
+        /// <summary>
+        /// Вспомогательный параметр для уровня
+        /// </summary>
+        public static string SupportParamForCheckElevationRound => "ADSK_Размер_Диаметр";
+
+        /// <summary>
+        /// Параметр для проверки, является ли элемент круглым
+        /// </summary>
+        public static string ParameterForCheckShape => "ADSK_Элемент круглый";
     }
 }

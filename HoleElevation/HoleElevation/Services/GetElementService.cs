@@ -28,17 +28,16 @@
         /// <summary>
         /// Получает семейства окон по фильтрации
         /// </summary>
-        /// <param name="familiesNames">Строка с начинаниями для имен</param>
         /// <returns>Список окно</returns>
-        public Result<List<Element>> GetWindows(string familiesNames)
+        public Result<List<Element>> GetWindows()
         {
             try
             {
-                var familyStartNames = familiesNames.Split(PluginSettings.Delimiter)
-                    .Select(i => i.Trim()).Where(i => !string.IsNullOrEmpty(i)).ToList();
                 return new FilteredElementCollector(_doc).WhereElementIsNotElementType()
                     .WherePasses(new ElementMulticategoryFilter(PluginSettings.TargetElementCategory))
-                    .Where(i => familyStartNames.Any(startName => i.Name.Contains(startName)))
+                    .OfType<FamilyInstance>()
+                    .Where(i => PluginSettings.FamilyNames.Contains(i.Symbol.Family.Name))
+                    .Cast<Element>()
                     .ToList();
             }
             catch (Exception e)
