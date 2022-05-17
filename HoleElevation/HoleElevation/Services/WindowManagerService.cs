@@ -110,8 +110,8 @@
         {
             elements.ForEach(i =>
             {
-                CheckBotPartParamValue(i);
                 CheckElevation(i);
+                CheckBotPartParamValue(i);
             });
             return CSharpFunctionalExtensions.Result.Success();
         }
@@ -135,7 +135,7 @@
                 return;
             }
 
-            if (param.GetParameterValue<double>() > PluginSettings.Tolerance)
+            if (Math.Abs(param.GetParameterValue<double>()) > PluginSettings.Tolerance)
             {
                 _displayLoger.AddMessage(
                     new ErrorMessage(
@@ -206,7 +206,7 @@
             if (windowCheckShapeParam.GetParameterValue<bool>())
             {
                 var radiusParam = element.GetParameterFromInstanceOrType(PluginSettings.SupportParamForCheckElevationRound);
-                if (checkParameter == null)
+                if (radiusParam == null)
                 {
                     _displayLoger.AddMessage(
                         new ErrorMessage(
@@ -222,18 +222,17 @@
                     return;
                 }
 
-                difference = Math.Abs(checkParameter.GetParameterValue<double>()
-                                      - supportParam.GetParameterValue<double>()
-                                      - level.Elevation
-                                      - radiusParam.GetParameterValue<double>());
+                difference = checkParameter.GetParameterValue<double>()
+                                      + level.Elevation.FtToMm()
+                                      + (radiusParam.GetParameterValue<double>() / 2);
             }
             else
             {
-                difference = Math.Abs(checkParameter.GetParameterValue<double>() -
-                                      supportParam.GetParameterValue<double>() - level.Elevation);
+                difference = checkParameter.GetParameterValue<double>() + level.Elevation.FtToMm();
             }
 
-            if (difference > PluginSettings.Tolerance)
+            var supportParamValue = supportParam.GetParameterValue<double>();
+            if (Math.Abs(supportParamValue - difference) > PluginSettings.Tolerance)
             {
                 _displayLoger.AddMessage(
                     new ErrorMessage(
